@@ -7,8 +7,8 @@ import styles from './MainPage.module.css';
 
 const videoData = [
   { id: 'v1', title: 'Capítulo 1 - Gradiente', url: 'https://www.youtube.com/embed/jfeRaJ89mEQ?si=dSDP472NCkEuoqQP' },
-  { id: 'v2', title: 'Capítulo 2 - Extremos', url: 'https://www.youtube.com/embed/ak_RgQkSu2s?si=jzlE0Q_ZwNl4wAeW' },
-  { id: 'v3', title: 'Capítulo 3 - Integrales Polares', url: 'https://www.youtube.com/embed/tZ9Bqs9XPH8?si=4vQTJY787uAsN2CZ' },
+  { id: 'v2', title: 'Capítulo 2 - Gradiente con sustitución', url: 'https://www.youtube.com/embed/ak_RgQkSu2s?si=jzlE0Q_ZwNl4wAeW' },
+  { id: 'v3', title: 'Capítulo 3 - Gradiente y análisis', url: 'https://www.youtube.com/embed/tZ9Bqs9XPH8?si=4vQTJY787uAsN2CZ' },
 ];
 
 function MainPage() {

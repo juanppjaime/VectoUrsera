@@ -22,13 +22,13 @@ function VideoSection({ video }) {
           {completed ? 'Completado ✅' : 'Marcar como hecho'}
         </button>
       </div>
-      <div style={{ aspectRatio: '16/9' }}>
+      <div className={styles.videoContainer}>
         <iframe
           src={video.url}
           title={video.title}
           frameBorder="0"
           allowFullScreen
-          style={{ width: '100%', height: '100%', borderRadius: '8px' }}
+          className={styles.iframe}
         ></iframe>
       </div>
     </div>

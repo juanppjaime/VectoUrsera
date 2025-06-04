@@ -1,10 +1,15 @@
 .wrapper {
-    background-color: #ffffff;
+    background-image: url('https://i.pinimg.com/736x/47/34/ac/4734acccd1220114883a3ed3e8e8d9b9.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  
     padding: 2rem;
     border-radius: 12px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
     max-width: 960px;
     width: 100%;
+    margin: auto;
   }
   
   .header {
@@ -12,29 +17,48 @@
     justify-content: space-between;
     align-items: center;
     margin-bottom: 1rem;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 1rem;
+    border-radius: 8px;
   }
   
   .title {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     font-weight: bold;
-    color: #1c1c1e;
+    color: #880e4f;
   }
   
   .button {
-    background-color: #1c1c1e;
-    color: white;
+    background-color: #f8bbd0;
     border: none;
-    padding: 0.4rem 0.8rem;
-    border-radius: 8px;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
     cursor: pointer;
+    font-weight: bold;
+    color: #880e4f;
     transition: background-color 0.3s;
   }
   
   .button:hover {
-    background-color: #ff69b4;
+    background-color: #f48fb1;
   }
   
   .completed {
-    background-color: #4caf50;
+    background-color: #c8e6c9;
+    color: #2e7d32;
   }
-      
+  
+  .videoContainer {
+    aspect-ratio: 16 / 9;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 12px;
+    padding: 1rem;
+  }
+  
+  .iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 8px;
+  }
+  
